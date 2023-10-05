@@ -1,0 +1,8 @@
+<ul class="list" data-bind="foreach: pokeList" style="display: flex; flex-wrap: wrap;list-style: none; padding: 0;">
+    <li>
+        <img data-bind="attr: {
+            src: $data.sprites.front_default,
+            'data-id': $data.id
+        }">
+    </li>
+</ul>

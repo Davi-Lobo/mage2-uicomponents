@@ -1,0 +1,21 @@
+<div id="pokemonApp" data-bind="scope: 'pokemon-app'">
+    <!-- ko template: getTemplate() -->
+    <!-- /ko -->
+</div>
+
+<script type="text/x-magento-init">
+    {
+        "#pokemonApp": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "pokemon-app": {
+                        "component": "Elisium_UiComponents/js/view/pokemonView",
+                        "config": {
+                            "template":"Elisium_UiComponents/pokemon-app"
+                        }
+                    }
+                }
+            }
+        }
+    }
+</script>

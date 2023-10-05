@@ -1,0 +1,22 @@
+{
+    "name": "elisium/module-uicomponents",
+    "description": "For study purposes.",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Davi Lobo",
+            "email": "davi.lobo.gs@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Elisium\\UiComponents\\": ""
+        }
+    }
+}
